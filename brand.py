@@ -28,8 +28,8 @@ class Generic:
             # self.browser = webdriver.Chrome(service=self.service)
         else:
             # chromedriver_path = '/usr/bin/chromedriver'
-            # self.browser=webdriver.Chrome('/usr/lib/chromium-browser/chromedriver', options=options)
-            self.browser=webdriver.Chrome(executable_path='/usr/bin/chromedriver', options=options)
+            self.browser=webdriver.Chrome('/usr/lib/chromium-browser/chromedriver', options=options)
+#             self.browser=webdriver.Chrome(executable_path='/usr/bin/chromedriver', options=options)
             # self.browser=webdriver.Chrome(executable_path='C:/Users/HAMZA/Downloads/chromedriver_win32/chromedriver.exe', options=options)
 #             self.browser= webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
         self.browser.maximize_window()
