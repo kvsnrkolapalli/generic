@@ -4,17 +4,10 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
-from selenium.webdriver import ActionChains
 from selenium import webdriver 
-from datetime import datetime
 import pandas as pd
-from flask import *
 import _thread
-import pytz
-import time
-import os
-import re
-import io
+
 
 
 browse_params=False
