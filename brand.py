@@ -48,6 +48,8 @@ class Generic:
         button = self.browser.find_element(by=by, value=value)
         button.click()
         
+browser=Generic('./chrome_driver')
+browser.close_browser()
         
 Jan_columns=['Generic (Salt) Combination', 'Pharma Company', 'Brand Label', 'Preparation Type', 'Single Dose', 'Composition', 'Pack Size', 'Price Unit', 'Price Pack', 'Why is this medicine prescribed', 'List of Substitute brands']
 Jan_df=pd.DataFrame(columns=Jan_columns)
